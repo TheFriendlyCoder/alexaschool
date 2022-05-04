@@ -1,0 +1,28 @@
+{
+    "manifest": {
+        "publishingInformation": {
+            "locales": {
+                "en-US": {
+                    "summary": "GO School Closures Skill",
+                    "examplePhrases": [
+                        "Alexa open go school"
+                    ],
+                    "name": "GOSchool",
+                    "description": "Custom skill showing school closures"
+                }
+            },
+            "isAvailableWorldwide": true,
+            "testingInstructions": "Sample Testing Instructions.",
+            "category": "EVENT_FINDERS",
+            "distributionCountries": []
+        },
+        "apis": {
+            "custom": {
+                "endpoint": {
+                    "uri": "arn:aws:lambda:us-east-1:112482396000:function:GoSchool"
+                }
+            }
+        },
+        "manifestVersion": "1.0"
+    }
+}

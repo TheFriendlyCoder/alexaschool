@@ -1,8 +1,19 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "melissa school",
+      "invocationName": "local school",
       "intents": [
+        {
+          "name": "SchoolOpenIntent",
+          "slots": [],
+          "samples": [
+            "if school is open today",
+            "is school open today",
+            "is school open",
+            "is school closed today",
+            "is school closed"
+          ]
+        },
         {
           "name": "AMAZON.CancelIntent",
           "samples": []
@@ -14,19 +25,6 @@
         {
           "name": "AMAZON.StopIntent",
           "samples": []
-        },
-        {
-          "name": "HelloWorldIntent",
-          "slots": [],
-          "samples": [
-            "hello",
-            "how are you",
-            "say hi world",
-            "say hi",
-            "hi",
-            "say hello world",
-            "say hello"
-          ]
         },
         {
           "name": "AMAZON.NavigateHomeIntent",

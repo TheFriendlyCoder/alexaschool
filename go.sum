@@ -5,4 +5,16 @@ github.com/aws/aws-lambda-go v1.31.1/go.mod h1:IF5Q7wj4VyZyUFnZ54IQqeWtctHQ9tz+K
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/stretchr/testify v1.6.1 h1:hDPOHmpOpP40lSULcqw7IrRb/u7w6RpDC9399XyoNd0=
+github.com/thefriendlycoder/schoolscraper v0.0.4 h1:BNb2omz9lVQkh8AaIPqBZiSbCKTDyj4Eo/05r2eY3ew=
+github.com/thefriendlycoder/schoolscraper v0.0.4/go.mod h1:w8ep4xCQ11I4jXwx5oWcmUVKhuWvwoTkDY84qJayYeg=
+github.com/thefriendlycoder/schoolscraper v0.0.5-0.20220508182951-d320d05eab5e h1:VYGfFUpuVSDjmrFX+hZRliFcoAlNY0jA7niUagjgC4w=
+github.com/thefriendlycoder/schoolscraper v0.0.5-0.20220508182951-d320d05eab5e/go.mod h1:w8ep4xCQ11I4jXwx5oWcmUVKhuWvwoTkDY84qJayYeg=
+github.com/thefriendlycoder/schoolscraper v0.0.5-0.20220510180452-a26445927a4a h1:3/w/bWDfo6TXVsYtmqzVOSx5+US+9DQV21YVs8cAkGY=
+github.com/thefriendlycoder/schoolscraper v0.0.5-0.20220510180452-a26445927a4a/go.mod h1:w8ep4xCQ11I4jXwx5oWcmUVKhuWvwoTkDY84qJayYeg=
+github.com/thefriendlycoder/schoolscraper v0.0.5-0.20220510181641-a40e30b168cb h1:qspcJ1Y8tYrWkFc3sIKI/m6ZqfCk5s0RfM9cD0voitU=
+github.com/thefriendlycoder/schoolscraper v0.0.5-0.20220510181641-a40e30b168cb/go.mod h1:w8ep4xCQ11I4jXwx5oWcmUVKhuWvwoTkDY84qJayYeg=
+github.com/thefriendlycoder/schoolscraper v0.0.5-0.20220510193328-4e8ffccb9994 h1:vF8qks0jD5Z3DsyBlifN6rwe0PVHazsX4RU0/U3b0YY=
+github.com/thefriendlycoder/schoolscraper v0.0.5-0.20220510193328-4e8ffccb9994/go.mod h1:w8ep4xCQ11I4jXwx5oWcmUVKhuWvwoTkDY84qJayYeg=
+golang.org/x/net v0.0.0-20220425223048-2871e0cb64e4 h1:HVyaeDAYux4pnY+D/SiwmLOR36ewZ4iGQIIrtnuCjFA=
+golang.org/x/net v0.0.0-20220425223048-2871e0cb64e4/go.mod h1:CfG3xpIq0wQ8r1q4Su4UZFWDARRcnwPjda9FqA0JpMk=
 gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776 h1:tQIYjPdBoyREyB9XMu+nnTclpTYkz2zFM+lzLJFO4gQ=

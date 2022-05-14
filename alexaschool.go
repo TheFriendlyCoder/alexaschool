@@ -21,6 +21,7 @@ func checkClosureStatus(districtName string, schoolName string) alexa.Response {
 	if err != nil {
 		return alexa.NewSimpleResponse("Failed", "Failed to load school data from URL")
 	}
+
 	body, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
 		return alexa.NewSimpleResponse("Failed", "Failed to read school data from URL")
@@ -56,12 +57,7 @@ func (connection Connection) IntentDispatcher(ctx context.Context, request alexa
 	school := "École Sainte-Anne"
 	var response alexa.Response
 	switch request.Body.Intent.Name {
-	case "SchoolOpenIntent":
-		response = checkClosureStatus(district, school)
-	case "":
-		// This intent is triggered when the user "opens" the app without
-		// providing an actual intent. In this case we assume they want
-		// to check the closure status
+	case "SchoolOpenIntent", "":
 		response = checkClosureStatus(district, school)
 	default:
 		msg := fmt.Sprintf("Unrecognized intent %v", request.Body.Intent.Name)
